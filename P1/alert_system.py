@@ -5,6 +5,8 @@ import psycopg
 
 # Initialize variables.
 
+os.chdir("/home/i/Downloads/P1")
+
 POSTGRES_DBNAME = os.environ["POSTGRES_DBNAME"]
 POSTGRES_USER = os.environ["POSTGRES_USER"]
 

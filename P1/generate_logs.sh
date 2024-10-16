@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Path to the log file where log entries will be written
-logfile="./app.log"
+logfile="/home/i/Downloads/P1/app.log"
 
 # Infinite loop to continuously generate logs
 while true; do

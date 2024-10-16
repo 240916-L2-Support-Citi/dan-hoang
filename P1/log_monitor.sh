@@ -1,6 +1,6 @@
 #!/bin/bash
 
-logfile="./app.log"
+logfile="/home/i/Downloads/P1/app.log"
 skip=$(< log_monitor_skip.txt)
 
 tail -n +$skip $logfile | while read line
